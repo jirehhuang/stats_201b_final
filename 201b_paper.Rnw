@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+
+\usepackage[]{color}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{dsfont}  
+\newcommand{\ind}[1]{\mathds{1} \left\{ #1 \right\}}  
+\def\x{\mathbf{x}} 
+
+\newcommand{\Exp}{\mathbb{E}}
+\newcommand{\Var}{\textrm{Var}}
+\newcommand{\Cov}{\textrm{Cov}}
+\newcommand{\mat}[1]{\mathbf{#1}}
+\newcommand{\tmat}[1]{\mathbf{#1}^\top}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\betahat}{(\tmat{X}\mat{X})^{-1}\tmat{X}Y}
+\newcommand{\xtxi}{(\tmat{X}\mat{X})^{-1}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+% Usage: \underset{\beta \in \reals^{P+1}}{argmin}(Y-\mat{X}\beta)^\top(Y-\mat{X}\beta)
+\graphicspath{ {images/} }
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=white,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\definecolor{darkgreen}{rgb}{0.0, 0.2, 0.13}
+
+
+\title{Bayesian Additive Regression Trees (BART)}
+\author{Wesley Cheng, Jireh Huang, Stephen Smith}
+\date{March 23, 2018}
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\end{document}
+
